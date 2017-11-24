@@ -1,0 +1,18 @@
+uuid: 7752eabc-bbbc-42bd-8009-98055c2681e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Publications
+type: publications_git
+description: 'different publications'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

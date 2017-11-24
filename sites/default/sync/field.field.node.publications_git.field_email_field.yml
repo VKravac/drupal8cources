@@ -1,0 +1,19 @@
+uuid: 15ce338f-d9db-401c-a3c0-62689468d18d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_field
+    - node.type.publications_git
+id: node.publications_git.field_email_field
+field_name: field_email_field
+entity_type: node
+bundle: publications_git
+label: 'Email field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

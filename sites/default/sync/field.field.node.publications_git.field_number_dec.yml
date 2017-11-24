@@ -1,0 +1,23 @@
+uuid: bd0d517d-0f2b-4755-b331-8647fc6939ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_dec
+    - node.type.publications_git
+id: node.publications_git.field_number_dec
+field_name: field_number_dec
+entity_type: node
+bundle: publications_git
+label: 'Number Dec'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

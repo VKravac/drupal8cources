@@ -1,0 +1,23 @@
+uuid: be948afc-a676-4781-9d1e-c2060ef94e6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_int
+    - node.type.publications_git
+id: node.publications_git.field_number_int
+field_name: field_number_int
+entity_type: node
+bundle: publications_git
+label: 'Number int'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,33 @@
+uuid: 37f473a1-466c-42d9-a1a3-926e802e058e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publications.body
+    - node.type.publications
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.publications.default
+targetEntityType: node
+bundle: publications
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

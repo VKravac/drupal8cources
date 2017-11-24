@@ -1,0 +1,23 @@
+uuid: 7861d1ff-d42e-4292-a6e6-f8c81260b90e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_float
+    - node.type.publications_git
+id: node.publications_git.field_number_float
+field_name: field_number_float
+entity_type: node
+bundle: publications_git
+label: 'Number Float'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

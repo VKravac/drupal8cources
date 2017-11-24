@@ -1,0 +1,75 @@
+uuid: b3bb71d4-788b-4f29-994b-6a5f8c9f85f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publications_git.body
+    - field.field.node.publications_git.field_email_field
+    - field.field.node.publications_git.field_number_dec
+    - field.field.node.publications_git.field_number_float
+    - field.field.node.publications_git.field_number_int
+    - node.type.publications_git
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.publications_git.default
+targetEntityType: node
+bundle: publications_git
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email_field:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_number_dec:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_number_float:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_number_int:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: e6e93e93-3e17-49fb-b85b-03c7dd0be97e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.publications_git
+id: node.publications_git
+target_entity_type_id: node
+target_bundle: publications_git
+default_langcode: site_default
+language_alterable: false

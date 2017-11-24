@@ -1,0 +1,22 @@
+uuid: 6416760f-cf0c-4661-8f4b-0da4c894b5a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: drupalbook_help
+theme: drupalbook
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

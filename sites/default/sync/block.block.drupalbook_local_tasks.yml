@@ -1,0 +1,22 @@
+uuid: ed4463d5-139c-4e81-b9b2-a0cc1c595d54
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: drupalbook_local_tasks
+theme: drupalbook
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
